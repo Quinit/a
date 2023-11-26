@@ -43,12 +43,6 @@ typedef struct Graph{
     int vexmun,arcnum;
 }Graph;//邻接矩阵
 
-
-
-
-
-
-
 bool ListInit(SqList &S){
     S.Length = 0;
     for(int i = 0; i < S.Length; i ++){
