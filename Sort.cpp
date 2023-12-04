@@ -112,6 +112,10 @@ int MergeSort(SqList L, int low, int high){
     }
 }
 
+int main(){
+    SqList L;
+    int tmp[50] = {1};
+}
 
 
 
