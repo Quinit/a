@@ -63,7 +63,7 @@ int BlockSearch(SqList &Index,SqList &Index_value,SqList &S_L,int &e){
     //二分查找大于e的最小值
     BiSearch(Index_value,e,low,high,mid);
     //块内查找e
-    if(LineSearch(S_L,e,Index.data[mid],Index_value.data[++mid],mid))
+    if(LineSearch(S_L,e,Index.data[mid],Index_value.data[++mid],mid) == 0)
         return mid;
     else
         return false;
